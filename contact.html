@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <link rel="icon" type="image/png" href="contact.png">
+</head>
+<body>
+
+<h1>Contact Me &#9742;&#65039;</h1>
+<hr>
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="education.html">Education</a> |
+    <a href="schedule.html">Weekly Schedule</a> |
+    <a href="contact.html">Contact Me</a> |
+    <a href="questionnaire.html">Questionnaire</a>
+</nav>
+<hr>
+<form action="mailto:akravchenko19661@ada.edu.az" method="POST" enctype="text/plain">
+
+    <label for="firstname">Firstname:</label>
+    <input type="text" id="firstname" name="firstname" required><br><br>
+
+    <label for="lastname">Lastname:</label>
+    <input type="text" id="lastname" name="lastname" required><br><br>
+    
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+<hr>
+    <p>Gender:</p>
+    <label><input type="radio" name="gender" value="Male"> Male</label>
+    <label><input type="radio" name="gender" value="Female"> Female</label><br><br>
+<hr>
+    <p>Interests:</p>
+    <label><input type="checkbox" name="interest" value="Coding"> Coding</label>
+    <label><input type="checkbox" name="interest" value="Sports"> Sports</label>
+    <label><input type="checkbox" name="interest" value="Music"> Music</label><br><br>
+<hr>
+    <label for="contactmethod">Preferred Contact:</label>
+    <select id="contactmethod" name="contactmethod">
+        <option value="Email">Email</option>
+        <option value="Phone">Phone</option>
+        <option value="Messenger">Messenger</option>
+    </select><br><br>
+<hr>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+
+</form>
+<hr>
+<footer>
+    <p>Copyright 2025| Created by Alina Kravchenko</p>
+</footer>
+<hr>
+</body>
+</html>

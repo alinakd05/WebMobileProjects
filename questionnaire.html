@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Questionnaire &#x2753;</title>
+    <link rel="icon" type="image/png" href="question.png">
+</head>
+<body>
+<header>
+    <h1>Questionnaire &#10067;</h1>
+    <hr>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="education.html">Education</a> |
+        <a href="schedule.html">Weekly Schedule</a> |
+        <a href="contact.html">Contact Me</a> |
+        <a href="questionnaire.html">Questionnaire</a>
+    </nav>
+</header>
+<hr>
+
+<section>
+    <article>
+        <form action="mailto:akravchenko19661@ada.edu.az" method="POST" >
+            <h2>Primary Information</h2>
+            <hr>
+            <label for="firstname">Firstname:</label>
+            <input type="text" id="firstname" name="firstname" required><br><br>
+
+
+            <label for="lastname">Lastname:</label>
+            <input type="text" id="lastname" name="lastname" required><br><br>
+
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+
+            <label for="q_age">Age:</label>
+            <input type="number" id="q_age" name="Age" ><br>
+            <hr>
+
+
+            <h2>Yes/No Questions</h2>
+            <p>Do you like programming?</p>
+            <label><input type="radio" name="like_programming" value="Yes">Yes</label>
+            <label><input type="radio" name="like_programming" value="No">No</label>
+            <hr>
+
+            <h2>Interests</h2>
+            <label><input type="checkbox" name="Interests" value="Games">Games</label>
+            <label><input type="checkbox" name="Interests" value="Sport">Sport</label>
+            <label><input type="checkbox" name="Interests" value="Reading">Reading</label>
+            <label><input type="checkbox" name="Interests" value="Art">Art</label><br>
+            <hr>
+
+
+            <h2>Choose from the list</h2>
+            <label for="q_os">Your favorite OS:</label>
+            <select id="q_os" name="fav_os">
+                <option>Windows</option>
+                <option>macOS</option>
+                <option>Linux</option>
+                <option>Other</option>
+            </select><br>
+            <hr>
+
+            <h2>Free answer</h2>
+            <label for="q_feedback">Your feedback:</label><br>
+            <textarea id="q_feedback" name="Feedback" rows="4" cols="50"></textarea><br>
+
+            <input type="submit" value="Send answers">
+        </form>
+    </article>
+</section>
+<hr>
+<footer>
+    <p>Copyright 2025| Created by Alina Kravchenko</p>
+</footer>
+<hr>
+</body>
+</html>
